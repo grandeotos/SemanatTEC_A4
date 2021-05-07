@@ -13,7 +13,7 @@ from random import randrange, choice
 from turtle import *
 from freegames import vector
 
-ball = vector(-200, -200)
+ball = vector(-1000, -1000)
 speed = vector(0, 0)
 targets = []
 colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
@@ -28,7 +28,7 @@ def tap(x, y):
 
 def inside(xy):
     "Return True if xy within screen."
-    return -200 < xy.x < 200 and -200 < xy.y < 200
+    return -3000 < xy.x < 3000 and -3000 < xy.y < 3000
 
 def draw():
     "Draw ball and targets."
@@ -37,7 +37,7 @@ def draw():
     for target in targets:
         goto(target.x, target.y)
         dot(20, choice(colors))
-
+    
     if inside(ball):
         goto(ball.x, ball.y)
         dot(6, choice(colors))
@@ -64,6 +64,7 @@ def move():
     for target in dupe:
         if abs(target - ball) > 13:
             targets.append(target)
+        
 
     draw()
 
@@ -71,7 +72,7 @@ def move():
         if not inside(target):
             return
 
-    ontimer(move, 50)
+    ontimer(move, 10)
 
 setup(420, 420, 370, 0)
 hideturtle()
