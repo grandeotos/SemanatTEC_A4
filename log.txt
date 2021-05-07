@@ -1,0 +1,23 @@
+commit dd8c2c9d5e69ef70fa657037432bd4c3f814efc8
+Author: SnipperPlayer <galeana2002@hotmail.com>
+Date:   Fri May 7 10:54:19 2021 -0500
+
+    A01424645
+
+commit 808eebcc0f1e28ccadfe5760fdd06dad2ddd9c9a
+Author: Juan Luis Soto Martinez <user.luis.sm@gmail.com>
+Date:   Thu May 6 14:37:40 2021 -0500
+
+    Añadido velocidades a las bolas y targets, mas una sorpresa
+
+commit 82c454aa9838ad234e2689c5ea9640c50dee3940
+Author: Juan Luis Soto Martinez <user.luis.sm@gmail.com>
+Date:   Thu May 6 13:29:01 2021 -0500
+
+    First commit
+
+commit fb156c12cf99a7ffcc1abf4dede197348486b47a
+Author: Juan Luis Soto Martinez <user.luis.sm@gmail.com>
+Date:   Thu May 6 13:19:37 2021 -0500
+
+    Initial commit
